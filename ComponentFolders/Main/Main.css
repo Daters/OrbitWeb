@@ -1,0 +1,38 @@
+
+.bakgrunn {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    }
+
+  .innhold {
+    left: 0%;
+    top: 0%;
+    color: black;  
+    position: absolute;
+  }
+  
+  .textMain {
+    left: 1%;
+    top: 30%;
+    color: white;      
+  }
+  
+  #Knowledge {
+    font-size: 350%;
+  }
+
+  #line {
+    color: grey;
+  }
+
+  #WeAreFront {
+    max-width: 44%;
+    font-size: 200%;
+  }
+
+  #TheGoal {
+    max-width: 40%;
+    font-size: 125%;
+    line-height: 150%;
+  }

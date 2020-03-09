@@ -1,0 +1,150 @@
+/*General reusable CSS first, group-specific CSS further down*/
+/*
+.Outer {
+    background-image: url("/src/ComponentFolders/AboutUs/Bak.jpg");
+    width: 100% ;
+}*/
+
+.Content{
+    display: block;
+    color: #f1f1f1;
+    top: 10%;
+    padding: 7%;
+    font-size: 100%;
+    /*
+    background-color: #888888;*/
+}
+
+.LeaderHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LeaderHead h1 {
+    text-align: left;
+}
+
+.LeaderHead img {
+    width: 100px;
+    height: 100px;
+    background: #555;
+    border-radius: 50%;
+}
+
+.TeamLeader{
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+}
+.GroupHead {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-left: 30%;
+    align-items: left;
+}
+
+.Button {
+    width: 150px;
+    max-width: 150px;
+    height: 50px;
+    background-color: teal;
+    border-radius: 25px;
+    border: none;
+
+}
+
+
+.GroupText {
+    width: 100%;
+}
+
+
+.Members {    
+    display: grid;
+    margin: auto;
+    min-width: 0;
+    grid-template-columns: repeat(2,1fr);
+}
+.Members h1 {    
+    text-align: center;
+}
+
+.TeamMember {
+    padding-top: 10%;
+    align-content: center;
+    padding-left: 2%;
+    text-align: center;
+    max-width: 10%;
+    
+}
+
+.TeamMember img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    border-radius: 50%;
+}
+
+.TeamMember h1 {
+    vertical-align: center;
+}
+
+.hr {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/*--------------------------------Specific group properties here-----------------------------------*/
+/*----------------------------Set "none" and "block" properties from here--------------------------*/
+
+
+.BoardContent{
+    display: none;
+}
+
+.MarketingContent {
+    display: none;
+}
+
+.SelfieContent {
+    display: none;
+}
+
+.SystemsContent {
+    display: none;
+}
+
+.OBCContent {
+    display: none;
+}
+
+.ADCSContent {
+    display: none;
+}
+
+.ElectronicsContent {
+    display: none;
+}
+
+.MechanicalContent {
+    display: none;
+}
+
+.PayloadContent {
+    display: none;
+}
+
+.SatComContent {
+    display: none;
+}
+
+.SubOrbitalContent {
+    display: none;
+}
+
+.NextSatContent {
+    display: none;
+}

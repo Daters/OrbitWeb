@@ -1,0 +1,44 @@
+
+.test {
+    width: 100%;
+}
+
+.Content {
+    background-image: url("../Pics/StorBak.jpg");
+    background-color: #888888;
+    color: red;
+    height: 100%;
+    font-size: x-large;
+}
+
+.Segment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Segment div {
+}
+
+.SegmentText {
+    padding-right: 5%;
+}
+
+.SegmentText h1{
+    padding-bottom: 4%;
+}
+
+.Segment img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.Divider {
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.BigFknLogo img{
+    width: 60%;
+}

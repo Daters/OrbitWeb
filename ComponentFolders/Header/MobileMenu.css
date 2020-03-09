@@ -1,0 +1,93 @@
+.MobileMenu {
+    background-color: #002a40;
+    position: absolute;
+    width: 0%;
+    opacity: 0;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    border-radius: 25%;
+    float: right;
+    background-color: #dddddd;
+    font-size: x-large;
+    font-weight: bold;
+    border: black;
+}
+
+
+.buttonP{
+top: 3%;
+right: 3%;
+}
+
+
+/*
+.X {
+    float: right;
+    padding: 3%;
+}*/
+
+.Choices {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    vertical-align: middle;
+    padding-top: 100px;
+    height: 100vmax;
+    color: #dddddd;
+}
+
+.Choices h1 {
+    padding: 5%;
+    text-decoration: none;
+
+}
+
+
+.Choices h1:hover {
+    display: block;
+    border-radius: 25px;
+    background: rgb(119, 119, 119);
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+
+.MobileMenu0 {
+    background-color: blue;
+    display: flex;
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    right: 20px;
+    top: 20px;
+    border-radius: 25%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+
+    transition: height 1s, width 1s, top 1s, right 1s, border-radius 1s;
+}
+
+.MenuHeader0 {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.MobileMenu0:hover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    top: 0;
+    border-radius: 0%;
+
+    transition: height 1s, width 1s, top 1s, right 1s, border-radius 1s;
+}
