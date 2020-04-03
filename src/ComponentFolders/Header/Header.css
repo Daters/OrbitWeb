@@ -1,0 +1,50 @@
+  .navbar1 {
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+  }
+  
+
+  
+  .option {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+
+  .navbar1 .option:hover {
+    display: block;
+    border-radius: 25px;
+    background: rgb(119, 119, 119);
+    padding: 10px 15px;
+    align-items: center;
+    transition: 0.5s;
+  }
+  
+  .option a {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .navbar1 .links {
+    list-style: none;
+    display: flex;
+    padding-right: 1%;
+    text-decoration: none;  
+  }
+  
+  .navbar1 .links a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo {
+    display: inline-block;
+    padding: 0.2%;
+  }
