@@ -8,6 +8,7 @@ import E404 from "./ComponentFolders/E404/E404"
 import Main from "./ComponentFolders/Main/Main"
 import About from "./ComponentFolders/AboutUs/About"
 import TheTeam from "./ComponentFolders/TheTeam/TheTeam"
+import Sponsor from "./ComponentFolders/Sponsor/Sponsors/Sponsors"
 import Footer from "./ComponentFolders/Footer/Footer"
 
 /*import MainMenu from './ComponentFolders/Header/MainMenu';*/
@@ -24,6 +25,7 @@ function App() {
           <Route path = {"/about"} component = {About}/>
           <Route path = {"/mission"} component = {Mission}/>
           <Route path = {"/team"} component = {TheTeam}/>
+          <Route path = {"/Sponsor"} component = {Sponsor}/>
           <Route component = {E404}/>
 
           {/*

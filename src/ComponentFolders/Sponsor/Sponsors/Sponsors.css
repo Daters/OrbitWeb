@@ -1,0 +1,263 @@
+#sponsor-body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.topHeader {
+  height: 550px;
+  background-image: url("../resources/sponsors-background2.jpg");
+  background-size: 100% 100%;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .container {
+  width: 85%;
+  height: 380px;
+  margin: auto;
+  color: white;
+  margin-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#sponsors-header {
+  width: 85%;
+}
+
+#sponsors-header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 70px;
+}
+
+#sponsors-header p {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.scroll-down-block {
+  width: 50px;
+  height: 30px;
+  padding-bottom: 3.3%;
+  transition: all 0.2s ease-in-out;
+}
+
+.scroll-down-block:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#sponsors-main {
+  background-image: url("../resources/sponsors-background3.jpg");
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-sponsors-header {
+  width: 40%;
+  padding-top: 150px;
+  padding-left: 5%;
+  position: static;
+}
+
+.main-sponsors-header h1,
+.main-sponsors-header hr {
+  margin: 0;
+  font-size: 2rem;
+}
+.main-sponsors-header h1 {
+  padding-bottom: 2%;
+}
+
+#main-sponsors {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+#main-sponsors section {
+  height: auto;
+  float: left;
+  position: absolute;
+  top: 200px;
+}
+
+#main-sponsors article {
+  width: 40%;
+  background-color: #0252a2;
+  color: white;
+  float: right;
+  font-size: 0.9rem;
+  line-height: 190%;
+}
+
+#main-sponsors article p {
+  padding: 0% 7%;
+  font-size: 130%;
+}
+#main-sponsors article h1 {
+  padding: 0% 7%;
+  font-size: 170%;
+}
+
+.platinum-sponsors .container {
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+.platinum-sponsors-header {
+  width: 90%;
+  padding-top: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+.platinum-logos {
+  padding-top: 7%;
+  width: 80%;
+  margin: auto;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.platinum-sponsor-row {
+  padding: 3%;
+  display: flex;
+}
+.platinum-sponsor-row img {
+  width: 35%;
+  height: 35%;
+}
+.platinum-sponsor-row img:hover {
+  cursor: pointer;
+}
+
+.become-sponsor-container {
+  width: 55%;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  font-size: 1.3rem;
+}
+.email-text {
+  transition: color 0.5s ease-in-out;
+}
+.email-text:hover {
+  color: #607d85;
+  cursor: pointer;
+}
+
+@media (max-width: 1040px) and (min-width: 768px) {
+  #main-sponsors {
+    height: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #main-sponsors section {
+    float: none;
+    position: relative;
+    top: 0;
+    padding-top: 20%;
+    padding-bottom: 5%;
+  }
+
+  #main-sponsors article {
+    width: 80%;
+    float: none;
+  }
+
+  .main-sponsors-header {
+    width: 90%;
+    text-align: center;
+  }
+  #sponsors-header h1 {
+    font-size: 50px;
+  }
+
+  #sponsors-header p {
+    font-size: 16px;
+  }
+  .become-sponsor-container {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 767px) {
+  #main-sponsors {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #main-sponsors section {
+    float: none;
+    position: relative;
+    top: 0;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  #main-sponsors section img {
+    width: 90%;
+  }
+
+  #main-sponsors article {
+    width: 90%;
+    float: none;
+    font-size: 0.7rem;
+  }
+
+  .main-sponsors-header {
+    width: 90%;
+    text-align: center;
+  }
+  .scroll-down-block {
+  }
+  #sponsors-header {
+    width: 90%;
+  }
+
+  #sponsors-header h1 {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  #sponsors-header p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .become-sponsor-container {
+    font-size: 0.7rem;
+    width: 70%;
+  }
+}
+@media (min-width: 1281px) {
+  .topHeader {
+    height: 900px;
+  }
+  #main-sponsors article {
+    font-size: 1.3rem;
+  }
+  #main-sponsors section {
+    top: 300px;
+  }
+  #sponsors-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+}
